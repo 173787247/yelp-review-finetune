@@ -103,7 +103,7 @@ print("✓ 评估指标定义完成")
 # 4. 训练配置
 configs = [
     {
-        "name": "配置1-基础",
+        "name": "Config 1 (Base)",
         "learning_rate": 2e-5,
         "num_train_epochs": 3,
         "per_device_train_batch_size": 16,
@@ -111,7 +111,7 @@ configs = [
         "weight_decay": 0.01,
     },
     {
-        "name": "配置2-高学习率",
+        "name": "Config 2 (High LR)",
         "learning_rate": 3e-5,
         "num_train_epochs": 3,
         "per_device_train_batch_size": 16,
@@ -119,7 +119,7 @@ configs = [
         "weight_decay": 0.01,
     },
     {
-        "name": "配置3-更多轮数",
+        "name": "Config 3 (More Epochs)",
         "learning_rate": 2e-5,
         "num_train_epochs": 5,
         "per_device_train_batch_size": 16,
@@ -127,7 +127,7 @@ configs = [
         "weight_decay": 0.01,
     },
     {
-        "name": "配置4-大批次",
+        "name": "Config 4 (Large Batch)",
         "learning_rate": 2e-5,
         "num_train_epochs": 3,
         "per_device_train_batch_size": 32,
