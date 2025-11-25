@@ -28,6 +28,21 @@ data/
 *.log
 training_log.txt
 
+# Helper scripts (not needed for submission)
+add_outputs_to_notebook.py
+check_completion.py
+check_notebook.py
+check_progress.bat
+auto_check_completion.bat
+regenerate_chart.py
+
+# Reference files
+fine-tune-quickstart.ipynb
+
+# Documentation (not needed for submission)
+快速运行指南.md
+训练状态和优化说明.md
+
 # Environment
 .env
 venv/
