@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Models and results
+models/
+results/
+*.pth
+*.pt
+*.bin
+
+# Data
+data/
+*.json
+
+# Output (keep result files)
+# *.png
+# *.jpg
+*.pdf
+
+# Logs
+*.log
+training_log.txt
+
+# Environment
+.env
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
